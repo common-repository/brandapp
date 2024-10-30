@@ -1,0 +1,53 @@
+.toplevel_page_brandapp .wp-menu-image img {
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: 6px 0 0 1px!important;
+}
+
+.toplevel_page_brandapp #wpcontent,
+.toplevel_page_brandapp-about #wpcontent{
+    padding-left: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+    
+    .toplevel_page_brandapp #wpcontent #wpbody,
+    .brandapp_page_brandapp-about #wpcontent #wpbody{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        overflow: hidden;
+    }
+    
+        .toplevel_page_brandapp #wpcontent #wpbody #wpbody-content,
+        .brandapp_page_brandapp-about #wpcontent #wpbody #wpbody-content{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+        
+        .toplevel_page_brandapp #wpcontent #wpbody #wpbody-content iframe,
+        .brandapp_page_brandapp-about #wpcontent #wpbody #wpbody-content iframe{
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                overflow: hidden;
+                height: 100%;
+                width: 100%;
+            }
+            
+    
+    .toplevel_page_brandapp #wpfooter{
+        display: none;
+    }
